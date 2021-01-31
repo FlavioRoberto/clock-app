@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Clock App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="teste">
+        <!-- CITE -->
+        <div class="cite">
+          <blockquote cite="Ada Lovelace">
+            <p class="phrase">
+              “The science of operations, as derived from mathematics more
+              especially, is a science of itself, and has its own abstract truth
+              and value.”
+            </p>
+            <p class="author">Ada Lovelace</p>
+          </blockquote>
+        </div>
+        <!-- CITE -->
+
+        <div class="content">
+          <!-- CLOCK -->
+          <div class="clock">
+            <div class="message">
+              <img src="./assets/desktop/icon-moon.svg" alt="time" />
+              <p>Good Morning, It's currently</p>
+            </div>
+
+            <p class="time">11:37</p>
+            <p class="location">IN LONDON, UK</p>
+          </div>
+          <!-- CLOCK -->
+
+          <!-- BUTTON -->
+          <div class="button">
+            <p class="label">more</p>
+            <img
+              class="icon"
+              src="./assets/desktop/icon-arrow-up.svg"
+              alt="more"
+            />
+          </div>
+        </div>
+        <!-- BUTTON -->
+      </div>
+
+      <div class="detail detail-template-columns">
+        <!-- COLUMN 1 -->
+        <div class="detail-column">
+          <!-- TIMEZONE   -->
+          <div>
+            <p class="title">Current timezone</p>
+            <p class="info detail-location">Europe/London</p>
+          </div>
+          <!-- TIMEZONE   -->
+
+          <!-- QNT DAY -->
+          <div>
+            <p class="title">Day of the year</p>
+            <p class="info day-of-year">295</p>
+          </div>
+          <!-- QNT DAY -->
+        </div>
+        <!-- COLUMN 1 -->
+
+        <!-- COLUMN 2 -->
+        <div class="detail-column">
+          <!-- DAY OF THE WEEK -->
+          <div>
+            <p class="title">Day of the week</p>
+            <p class="info day-of-week">5</p>
+          </div>
+          <!-- DAY OF THE WEEK -->
+
+          <!-- WEEK NUMBER -->
+          <div>
+            <p class="title">Week number</p>
+            <p class="info week-number">42</p>
+          </div>
+          <!-- WEEK NUMBER -->
+        </div>
+        <!-- COLUMN 2 -->
+      </div>
+    </div>
+
+    <script src="./framework.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
